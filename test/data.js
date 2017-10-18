@@ -46,18 +46,16 @@ data = [
     "y": -1,
     "img": "lz02.jpg"
   },
-<<<<<<< HEAD
   {
    "id": "lz",
     "x": 1,
     "y": -1,
     "img": "lz03.jpg"
-=======
-      {
+  },
+  {
     "id": "TT",
     "x": -1,
     "y": 1,
     "img": "TT02.jpg"
->>>>>>> ceb337eb8c85f028bdfdbce77c3fe7a0618f4300
   },
 ];
