@@ -1,69 +1,69 @@
 data = [
   {
-    "id": "cx",
+    "id": "CX",
     "x": 0,
     "y": 0,
-    "img": "cx01.jpg"
+    "img": "CX01.jpg"
 
   },
     {
-    "id": "zl",
+    "id": "ZL",
     "x": 2,
     "y": 0,
-    "img": "zl01.jpg"
+    "img": "ZL01.jpg"
 
   },
   {
-    "id": "zl",
+    "id": "ZL",
     "x": -2,
     "y": 0,
-    "img": "zl02.jpg"
+    "img": "ZL02.jpg"
 
   },
    {
-    "id": "zl",
+    "id": "ZL",
     "x": -1,
     "y": -2,
-    "img": "zl04.jpg"
+    "img": "ZL04.jpg"
 
   },
   {
-    "id": "zl",
+    "id": "ZL",
     "x": 0,
     "y": -1,
-    "img": "zl03.jpg"
+    "img": "ZL03.jpg"
 
   },
     {
-    "id": "lz",
+    "id": "LZ",
     "x": 1,
     "y": 0,
-    "img": "lz01.jpg"
+    "img": "LZ01.jpg"
 
   },
       {
-    "id": "rx",
+    "id": "RX",
     "x": -1,
     "y": 0,
     "img": "RX01.jpg"
     },
       {
-    "id": "lz",
+    "id": "LZ",
     "x": -1,
     "y": -1,
-    "img": "lz02.jpg"
+    "img": "LZ02.jpg"
   },
   {
-    "id": "ja",
+    "id": "JA",
     "x": 1,
     "y": 1,
-    "img": "ja01.jpg"
+    "img": "JA01.jpg"
   },
   {
-   "id": "lz",
+   "id": "LZ",
     "x": 1,
     "y": -1,
-    "img": "lz03.jpg"
+    "img": "LZ03.jpg"
   },
   {
     "id": "TT",
