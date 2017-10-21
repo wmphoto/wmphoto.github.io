@@ -45,8 +45,8 @@ function loadImages () {
         for (var key in data) {
           if (data[key].x === j && data[key].y === i) {
             htmlText += '<td id="' + j + ',' + i + 
-                        '" onMouseOver="highlightBG(this, \'#C66\')"' + 
-                        ' onMouseOut="highlightBG(this, \'#FFF\')"' +
+                        '" onMouseOver="setBG(this, \'#C66\')"' + 
+                        ' onMouseOut="setBG(this, \'#FFF\')"' +
                         ' style="background-image:url(img/' + data[key].img + ');">';
             isPopulated = true;
           }
@@ -54,8 +54,10 @@ function loadImages () {
   
         if (!isPopulated) {
           htmlText += '<td id="' + j + ',' + i + 
-                      '" onMouseOver="highlightBG(this, \'#6C5\')"' + 
-                      ' onMouseOut="highlightBG(this, \'#FFF\')"' + + '">';        
+                      '" onMouseOver="setBG(this, \'#6C5\')"' + 
+                      ' onMouseOut="setBG(this, \'#FFF\')"' + 
+                      ' align="center"' +                      
+                      ' onClick="generateJSON(this)">';        
         }
         htmlText += '</td>';
       }
@@ -72,8 +74,17 @@ function loadImages () {
   }
 
   // https://stackoverflow.com/questions/4897737/mouseover-event-to-change-td-background-and-text
-  function highlightBG(element, color) {
+  function setBG(element, color) {
     element.style.backgroundColor = color;
+  }
+
+  function generateJSON(element) {
+    element.onclick = null;
+    element.innerHTML = '<form>' +
+                        'id:\ ' +
+                        '<input type="text" name="firstname">\ ' +
+                        '<button type="button">Generate JSON</button>' +
+                        '</form>';
   }
   
   loadImages();
