@@ -44,7 +44,7 @@ function loadImages () {
   
         for (var key in data) {
           if (data[key].x === j && data[key].y === i) {
-            htmlText += '<td id="' + j + ',' + i + 
+            htmlText += '<td x="' + j + '" y="' + i + 
                         '" onMouseOver="setBG(this, \'#C66\')"' + 
                         ' onMouseOut="setBG(this, \'#FFF\')"' +
                         ' style="background-image:url(img/' + data[key].img + ');">';
@@ -53,11 +53,11 @@ function loadImages () {
         }
   
         if (!isPopulated) {
-          htmlText += '<td id="' + j + ',' + i + 
+          htmlText += '<td x="' + j + '" y="' + i + 
                       '" onMouseOver="setBG(this, \'#6C5\')"' + 
                       ' onMouseOut="setBG(this, \'#FFF\')"' + 
                       ' align="center"' +                      
-                      ' onClick="generateJSON(this)">';        
+                      ' onClick="addJSONform(this)">';        
         }
         htmlText += '</td>';
       }
@@ -78,15 +78,42 @@ function loadImages () {
     element.style.backgroundColor = color;
   }
 
-  function generateJSON(element) {
+  function addJSONform(element) {
     element.onclick = null;
-    element.innerHTML = '<form>' +
+    element.innerHTML = '<form onSubmit="return generateJSON(this)">' +
                         'id:\ ' +
-                        '<input type="text" name="firstname">\ ' +
-                        '<button type="button">Generate JSON</button>' +
+                        '<input type="text" class="id">\ ' +
+                        '<input type="submit" value="Generate JSON">' +
                         '</form>';
   }
-  
+
+  function generateJSON(element) {
+    var id = element.getElementsByClassName('id')[0].value;
+    var x = element.parentNode.x
+
+    var idValid = false;
+    for (var profile in profiles) {
+      if (profiles[profile].id == id) {
+        idValid = true;
+      }
+    }
+
+    if (idValid) {  
+      element.parentNode.innerHTML = '<pre>{\n' +
+                                     '  "x":\n' +
+                                     '}</pre>';
+    } else {
+      element.parentNode.innerHTML += '<br>invalid id';      
+    }
+
+    return false;
+  }
+
+  // Determines what the name of the image should be
+  function generateImageName(id) {
+
+  }
+
   loadImages();
   scrollToMiddle();
   
