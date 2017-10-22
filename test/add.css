@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+table {
+  border-spacing: 40px;
+}
+td {
+  height: 400px;
+  min-width: 400px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: contain;  
+}
+.empty:hover {
+  border: solid 2px #7D9;
+  box-sizing: border-box;
+}
+.populated:hover {
+  border: solid 2px #D97;
+  box-sizing: border-box;
+}
+#content {
+  min-width: 100%;
+  display: inline-block;
+}
+.container {
+  margin: 0 auto;
+}
+.container table {
+  margin: 0 auto;
+}
