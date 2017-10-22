@@ -45,19 +45,17 @@ function loadImages () {
         for (var key in data) {
           if (data[key].x === j && data[key].y === i) {
             htmlText += '<td x="' + j + '" y="' + i + 
-                        '" onMouseOver="setBG(this, \'#C66\')"' + 
-                        ' onMouseOut="setBG(this, \'#FFF\')"' +
-                        ' style="background-image:url(img/' + data[key].img + ');">';
+                        '" class="populated" ' +  
+                        'style="background-image:url(img/' + data[key].img + ');">';
             isPopulated = true;
           }
         }
   
         if (!isPopulated) {
           htmlText += '<td x="' + j + '" y="' + i + 
-                      '" onMouseOver="setBG(this, \'#6C5\')"' + 
-                      ' onMouseOut="setBG(this, \'#FFF\')"' + 
-                      ' align="center"' +                      
-                      ' onClick="addJSONform(this)">';        
+                      '" class="empty" ' +
+                      'align="center"' + 
+                      'onClick="addJSONform(this)">';        
         }
         htmlText += '</td>';
       }
@@ -73,11 +71,6 @@ function loadImages () {
     window.scrollTo((document.body.scrollWidth - window.innerWidth) / 2, (document.body.scrollHeight - window.innerHeight) / 2);  
   }
 
-  // https://stackoverflow.com/questions/4897737/mouseover-event-to-change-td-background-and-text
-  function setBG(element, color) {
-    element.style.backgroundColor = color;
-  }
-
   function addJSONform(element) {
     element.onclick = null;
     element.innerHTML = '<form onSubmit="return generateJSON(this)">' +
@@ -87,10 +80,12 @@ function loadImages () {
                         '</form>';
   }
 
+  // Makes a JSON to add to data.js
   function generateJSON(element) {
     var id = element.getElementsByClassName('id')[0].value;
-    var x = element.parentNode.x
-
+    var x = element.parentNode.getAttribute('x');
+    var y = element.parentNode.getAttribute('y');
+    
     var idValid = false;
     for (var profile in profiles) {
       if (profiles[profile].id == id) {
@@ -98,10 +93,16 @@ function loadImages () {
       }
     }
 
-    if (idValid) {  
-      element.parentNode.innerHTML = '<pre>{\n' +
-                                     '  "x":\n' +
-                                     '}</pre>';
+    if (idValid) {
+      element.parentNode.setAttribute('align', 'left'); 
+      element.parentNode.innerHTML = '<p align="center">Add this to data.js:</p>' +
+                                     '<pre style="padding-left: 50px;">  {\n' +
+                                     '    "id": "' + id + '",\n' +
+                                     '    "x": ' + x + ',\n' +
+                                     '    "y": ' + y + ',\n' +
+                                     '    "img": "' + generateImageName(id) + '",\n' +
+                                     '    "date": "' + new Date().toJSON().slice(0,10) + '"\n' +
+                                     '  },</pre>';
     } else {
       element.parentNode.innerHTML += '<br>invalid id';      
     }
@@ -111,7 +112,13 @@ function loadImages () {
 
   // Determines what the name of the image should be
   function generateImageName(id) {
-
+    var max = 0;
+    for (var key in data) {
+      if (data[key].img.substring(0, 2) == id && (parseInt((data[key].img).substring(2, 4)) > max)) {
+        max = parseInt((data[key].img).substring(2, 4));
+      }
+    }
+    return id + ('00' + (max + 1)).slice(-2) + '.jpg';
   }
 
   loadImages();
