@@ -1,4 +1,4 @@
-# wmphoto.github.io
+ # wmphoto.github.io
 
 ## Getting this repo 
 
@@ -12,6 +12,6 @@ Now go to <a href="https://wmphoto.github.io/add.html">wmphoto.github.io/add.htm
 
 Now open your local copy of **index.html** and compare it with the <a href="https://wmphoto.github.io">wmphoto site</a> to make absolutely certain that your local version of the page is up to date. If your image shows up on **index.html** and all the images from the <a href="https://wmphoto.github.io">wmphoto site</a> are also there, you can write a commit message in the GitHub Desktop Application and commit your changes by clicking the **commit** button. Then, click **Push** to put your changes on the live site.
 
-##Updating your profile
+## Updating your profile
 
 **profile.js** has the two-letter ids that belong to each of you. When you get a chance, fill in the missing information. Use the same caution here as when you are adding images.
