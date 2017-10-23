@@ -66,10 +66,12 @@ function loadImages () {
     document.getElementById('content').appendChild(div);
   }
   
+  
   // Load at the center of the document
   function scrollToMiddle () {
     window.scrollTo((document.body.scrollWidth - window.innerWidth) / 2, (document.body.scrollHeight - window.innerHeight) / 2);  
   }
+
 
   function addJSONform(element) {
     element.onclick = null;
@@ -79,6 +81,7 @@ function loadImages () {
                         '<input type="submit" value="Generate JSON">' +
                         '</form>';
   }
+
 
   // Makes a JSON to add to data.js
   function generateJSON(element) {
@@ -106,9 +109,9 @@ function loadImages () {
     } else {
       element.parentNode.innerHTML += '<br>invalid id';      
     }
-
     return false;
   }
+
 
   // Determines what the name of the image should be
   function generateImageName(id) {
