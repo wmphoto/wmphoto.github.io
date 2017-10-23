@@ -1,4 +1,4 @@
- # wmphoto.github.io
+# wmphoto.github.io
 
 ## Getting this repo 
 
@@ -15,3 +15,4 @@ Now open your local copy of **index.html** and compare it with the <a href="http
 ## Updating your profile
 
 **profile.js** has the two-letter ids that belong to each of you. When you get a chance, fill in the missing information. Use the same caution here as when you are adding images.
+
