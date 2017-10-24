@@ -8,17 +8,10 @@ You should all have GitHub Desktop installed on your computers. If this repo isn
 
 Before *changing anything* in the local files, make sure you're looking at the most current version of the site. In Github Desktop, click **Fetch** or **Pull**. If the program says you have uncommitted changes, navigate to the **Changes** tab, right click on the **changed files** bar at the top, and click **Discard all changes**. 
 
-Now go to <a href="https://wmphoto.github.io/add.html">wmphoto.github.io/add.html</a>. To choose where you'll place your image, put your mouse over an empty square. The square should have a green outline. 
+Now go to <a href="https://wmphoto.github.io/add.html">wmphoto.github.io/add.html</a>. To choose where you'll place your image, put your mouse over an empty square. The square should have a green outline **(1)**.  Click on the square to select it. A text input box and button should appear. Type your two-letter id into the box and click on the **Generate JSON** button **(2)**. Now, a JSON entry should appear in the box **(3)**. 
 
-![](README/add-01.png)
-
-Click on the square to select it. A text input box and button should appear. Type your two-letter id into the box and click on the **Generate JSON** button. 
-
-![](README/add-02.png)
-
-Now, a JSON entry should appear in the box. 
-
-![](README/add-03.png)
+| 1.![](README/add-01.png) | 2.![](README/add-02.png) | 3.![](README/add-03.png) |
+| :----------------------- | ------------------------ | ------------------------ |
 
 Copy and paste this JSON into **data.js**. Add your image to the **img** folder with the name given on the "img" row of the JSON. **YOUR IMAGE'S FILENAME MUST MATCH THE FILENAME IN data.js**. Filenames are case-sensitive.
 
