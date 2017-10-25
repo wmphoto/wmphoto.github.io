@@ -46,7 +46,7 @@ function loadImages () {
           if (data[key].x === j && data[key].y === i) {
             htmlText += '<td x="' + j + '" y="' + i + 
                         '" class="populated" ' +  
-                        'style="background-image:url(img/' + data[key].img + ');">';
+                        'style="background-image:url(img/' + data[key].imgSmall + ');">';
             isPopulated = true;
           }
         }
@@ -103,7 +103,8 @@ function loadImages () {
                                      '    "id": "' + id + '",\n' +
                                      '    "x": ' + x + ',\n' +
                                      '    "y": ' + y + ',\n' +
-                                     '    "img": "' + generateImageName(id) + '",\n' +
+                                     '    "imgSmall": "' + generateImageName(id) + '-small.jpg",\n' +
+                                     '    "imgLarge": "' + generateImageName(id) + '-large.jpg",\n' +
                                      '    "date": "' + new Date().toJSON().slice(0,10) + '"\n' +
                                      '  },</pre>';
     } else {
@@ -121,7 +122,7 @@ function loadImages () {
         max = parseInt((data[key].img).substring(2, 4));
       }
     }
-    return id + ('00' + (max + 1)).slice(-2) + '.jpg';
+    return id + ('00' + (max + 1)).slice(-2);
   }
 
   loadImages();
