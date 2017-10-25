@@ -42,7 +42,7 @@ function loadImages () {
 
       for (var key in data) {
         if (data[key].x === j && data[key].y === i) {
-          htmlText += '<td style="background-image:url(img/' + data[key].img + ');">';
+          htmlText += '<td style="background-image:url(img/' + data[key].imgSmall + ');">';
           isPopulated = true;
         }
       }

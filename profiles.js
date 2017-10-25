@@ -6,8 +6,8 @@ profiles = [
   },
   {
     "id": "tt",
-    "name": "",
-    "color": ""
+    "name": "Tabitha Timm",
+    "color": "#8c0c30"
   },
   {
     "id": "cx",
@@ -21,8 +21,8 @@ profiles = [
   },
   {
     "id": "lz",
-    "name": "",
-    "color": ""
+    "name": "Lillian Zhao",
+    "color": "#dda69b"
   },
   {
     "id": "rx",
