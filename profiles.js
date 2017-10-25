@@ -36,8 +36,8 @@ profiles = [
   },
   {
     "id": "ls",
-    "name": "",
-    "color": ""
+    "name": "Lynette Shen",
+    "color": "#096148"
   },
   {
     "id": "ed",
