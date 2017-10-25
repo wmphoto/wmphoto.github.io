@@ -80,13 +80,11 @@ function loadImages () {
                         '<input type="text" class="id">\ ' +
                         '<input type="submit" value="Generate JSON">' +
                         '</form>';
-    console.log("1Form added")
   }
 
 
   // Makes a JSON to add to data.js
   function generateJSON(element) {
-    console.log("2generating")
     var id = element.getElementsByClassName('id')[0].value;
     var x = element.parentNode.getAttribute('x');
     var y = element.parentNode.getAttribute('y');
@@ -98,10 +96,8 @@ function loadImages () {
       }
     }
 
-    console.log("3validated")
 
     if (idValid) {
-      console.log("4valid")
       element.parentNode.setAttribute('align', 'left'); 
       element.parentNode.innerHTML = '<p align="center">Add this to data.js:</p>' +
                                      '<pre style="padding-left: 50px;">  {\n' +
@@ -112,7 +108,6 @@ function loadImages () {
                                      '    "imgLarge": "' + generateImageName(id) + '-large.jpg",\n' +
                                      '    "date": "' + new Date().toJSON().slice(0,10) + '"\n' +
                                      '  },</pre>';
-      console.log("5validdone")
     } else {
       element.parentNode.innerHTML += '<br>invalid id';      
     }
