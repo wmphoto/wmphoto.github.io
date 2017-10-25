@@ -13,11 +13,16 @@ Now go to <a href="https://wmphoto.github.io/add.html">wmphoto.github.io/add.htm
 | 1.![](README/add-01.png) | 2.![](README/add-02.png) | 3.![](README/add-03.png) |
 | :----------------------- | :----------------------- | :----------------------- |
 
-Copy and paste this JSON into **data.js**. Add your image to the **img** folder with the name given on the "img" row of the JSON. **YOUR IMAGE'S FILENAME MUST MATCH THE FILENAME IN data.js**. Filenames are case-sensitive.
+Copy and paste this JSON into **data.js**. Add both the large and small images folder with the name given on the "img" row of the JSON. **YOUR IMAGE'S FILENAMES MUST MATCH THE FILENAMES IN data.js**. Filenames are case-sensitive.
 
 Now open your local copy of **index.html** and compare it with the <a href="https://wmphoto.github.io">wmphoto site</a> to make absolutely certain that your local version of the page is up to date. If your image shows up on **index.html** and all the images from the <a href="https://wmphoto.github.io">wmphoto site</a> are also there, you can write a commit message in the GitHub Desktop Application and commit your changes by clicking the **commit** button. Then, click **Push** to put your changes on the live site.
+
+## Image naming/sizing
+
+Name your files *exactly* as the site tells you to.
+
+Only upload **.jpg** files. The small version of the image should be **1000** pixels on the long side. Your large version of the image should be **2000** pixels on the long side. Try to make your images as small as possible - users will be loading tens of images at a time, and we want the page to load quickly.## Updating your profile
 
 ## Updating your profile
 
 **profile.js** has the two-letter ids that belong to each of you. When you get a chance, fill in the missing information. Use the same caution here as when you are adding images.
-
