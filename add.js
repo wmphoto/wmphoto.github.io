@@ -96,6 +96,7 @@ function loadImages () {
       }
     }
 
+
     if (idValid) {
       element.parentNode.setAttribute('align', 'left'); 
       element.parentNode.innerHTML = '<p align="center">Add this to data.js:</p>' +
@@ -118,8 +119,8 @@ function loadImages () {
   function generateImageName(id) {
     var max = 0;
     for (var key in data) {
-      if (data[key].img.substring(0, 2) == id && (parseInt((data[key].img).substring(2, 4)) > max)) {
-        max = parseInt((data[key].img).substring(2, 4));
+      if (data[key].imgSmall.substring(0, 2) == id && (parseInt((data[key].imgSmall).substring(2, 4)) > max)) {
+        max = parseInt((data[key].imgSmall).substring(2, 4));
       }
     }
     return id + ('00' + (max + 1)).slice(-2);
