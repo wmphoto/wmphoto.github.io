@@ -21,8 +21,8 @@ profiles = [
   },
   {
     "id": "lz",
-    "name": "",
-    "color": ""
+    "name": "Lillian Zhao",
+    "color": "#dda69b"
   },
   {
     "id": "rx",
@@ -31,8 +31,8 @@ profiles = [
   },
   {
     "id": "zl",
-    "name": "",
-    "color": "" 
+    "name": "Zichang Liu",
+    "color": "#aab377" 
   },
   {
     "id": "ls",
