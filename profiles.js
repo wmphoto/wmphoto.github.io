@@ -31,8 +31,8 @@ profiles = [
   },
   {
     "id": "zl",
-    "name": "Zichang Liu",
-    "color": "#aab377" 
+    "name": "",
+    "color": "" 
   },
   {
     "id": "ls",
