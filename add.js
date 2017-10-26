@@ -96,7 +96,6 @@ function loadImages () {
       }
     }
 
-
     if (idValid) {
       element.parentNode.setAttribute('align', 'left'); 
       element.parentNode.innerHTML = '<p align="center">Add this to data.js:</p>' +
@@ -107,11 +106,23 @@ function loadImages () {
                                      '    "imgSmall": "' + generateImageName(id) + '-small.jpg",\n' +
                                      '    "imgLarge": "' + generateImageName(id) + '-large.jpg",\n' +
                                      '    "date": "' + new Date().toJSON().slice(0,10) + '"\n' +
+                                     '    "seq": ' + (getMaxSeq() + 1) + ',\n' +
                                      '  },</pre>';
     } else {
       element.parentNode.innerHTML += '<br>invalid id';      
     }
     return false;
+  }
+
+
+  function getMaxSeq() {
+    var max = 1;    
+    for (var key in data) {
+      if (data[key].seq > max) {
+        max = data[key].seq;
+      }
+    }
+    return max;
   }
 
 

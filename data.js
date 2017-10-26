@@ -5,7 +5,8 @@ data = [
     "y": 0,
     "imgSmall": "rx01-small.jpg",
     "imgLarge": "rx01-large.jpg",
-    "date": "2017-10-25"
+    "date": "2017-10-25",
+    "seq": 1
   },
   {
     "id": "ls",
@@ -13,7 +14,8 @@ data = [
     "y": 0,
     "imgSmall": "ls01-small.jpg",
     "imgLarge": "ls01-large.jpg",
-    "date": "2017-10-25"
+    "date": "2017-10-25",
+    "seq": 2
   },
  {
     "id": "tt",
@@ -21,7 +23,8 @@ data = [
     "y": 0,
     "imgSmall": "tt01-small.jpg",
     "imgLarge": "tt01-large.jpg",
-    "date": "2017-10-26"
+    "date": "2017-10-26",
+    "seq": 3
   },
  {
     "id": "rx",
@@ -29,6 +32,7 @@ data = [
     "y": 0,
     "imgSmall": "rx02-small.jpg",
     "imgLarge": "rx02-large.jpg",
-    "date": "2017-10-26"
+    "date": "2017-10-26",
+    "seq": 4
   },
 ];

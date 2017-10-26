@@ -10,7 +10,7 @@ Before *changing anything* in the local files, make sure you're looking at the m
 
 Now go to <a href="https://wmphoto.github.io/add.html">wmphoto.github.io/add.html</a>. To choose where you'll place your image, put your mouse over an empty square. The square should have a green outline **(1)**.  Click on the square to select it. A text input box and button should appear. Type your two-letter id into the box and click on the **Generate JSON** button **(2)**. Now, a JSON entry should appear in the box **(3)**. 
 
-| 1.![](README/add-01.png) | 2.![](README/add-02.png) | 3.![](README/add-03.png) |
+| 1.![](docs/add-01.png) | 2.![](docs/add-02.png) | 3.![](docs/add-03.png) |
 | :----------------------- | :----------------------- | :----------------------- |
 
 Copy and paste this JSON into **data.js**. Add both the large and small images folder with the name given on the "img" row of the JSON. **YOUR IMAGE'S FILENAMES MUST MATCH THE FILENAMES IN data.js**. Filenames are case-sensitive.
