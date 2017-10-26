@@ -23,4 +23,12 @@ data = [
     "imgLarge": "tt01-large.jpg",
     "date": "2017-10-26"
   },
+ {
+    "id": "rx",
+    "x": 2,
+    "y": 0,
+    "imgSmall": "rx02-small.jpg",
+    "imgLarge": "rx02-large.jpg",
+    "date": "2017-10-26"
+  },
 ];
