@@ -105,7 +105,7 @@ function loadImages () {
                                      '    "y": ' + y + ',\n' +
                                      '    "imgSmall": "' + generateImageName(id) + '-small.jpg",\n' +
                                      '    "imgLarge": "' + generateImageName(id) + '-large.jpg",\n' +
-                                     '    "date": "' + new Date().toJSON().slice(0,10) + '"\n' +
+                                     '    "date": "' + new Date().toJSON().slice(0,10) + '",\n' +
                                      '    "seq": ' + (getMaxSeq() + 1) + ',\n' +
                                      '  },</pre>';
     } else {
