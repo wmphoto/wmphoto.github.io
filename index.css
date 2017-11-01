@@ -6,11 +6,28 @@ table {
   border-spacing: 40px;
 }
 td {
+  text-align: center;
   height: 400px;
   min-width: 400px;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  background-size: contain;  
+}
+td div {
+  position: relative;
+  vertical-align: center;
+  width: 400px;
+  height: 400px;
+}
+div img {
+  vertical-align: middle;
+  max-height: 100%;
+  max-width: 100%;
+}
+.helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+img:hover {
+  opacity: 0.3;
 }
 #content {
   min-width: 100%;
