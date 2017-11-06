@@ -37,12 +37,12 @@ data = [
   },
   {
     "id": "lz",
-    "x": 1,
-    "y": -1,
+    "x": 0,
+    "y": -2,
     "imgSmall": "lz01-small.jpg",
     "imgLarge": "lz01-large.jpg",
     "date": "2017-10-28",
-    "seq": 5,
+    "seq": 9,
   },
   {
     "id": "ed",
@@ -78,7 +78,7 @@ data = [
     "imgSmall": "zl01-small.jpg",
     "imgLarge": "zl01-large.jpg",
     "date": "2017-10-30",
-    "seq": 9,
+    "seq": 5,
   },
     {
     "id": "zl",
@@ -128,8 +128,8 @@ data = [
   },
   {
     "id": "ja",
-    "x": 1,
-    "y": -2,
+    "x": 0,
+    "y": -3,
     "imgSmall": "ja02-small.jpg",
     "imgLarge": "ja02-large.jpg",
     "date": "2017-11-01",
@@ -137,8 +137,8 @@ data = [
   },
   {
     "id": "ls",
-    "x": 1,
-    "y": -3,
+    "x": 0,
+    "y": -4,
     "imgSmall": "ls02-small.jpg",
     "imgLarge": "ls02-large.jpg",
     "date": "2017-11-01",
@@ -236,8 +236,8 @@ data = [
   },
     {
     "id": "ed",
-    "x": 1,
-    "y": -4,
+    "x": 0,
+    "y": -5,
     "imgSmall": "ed03-small.jpg",
     "imgLarge": "ed03-large.jpg",
     "date": "2017-11-06",
