@@ -173,8 +173,8 @@ data = [
   },
  {
     "id": "cx",
-    "x": -1,
-    "y": 1,
+    "x": -3,
+    "y": 2,
     "imgSmall": "cx03-small.jpg",
     "imgLarge": "cx03-large.jpg",
     "date": "2017-11-01",
@@ -227,8 +227,8 @@ data = [
   },
   {
     "id": "ja",
-    "x": -1,
-    "y": 2,
+    "x": -2,
+    "y": -2,
     "imgSmall": "ja03-small.jpg",
     "imgLarge": "ja03-large.jpg",
     "date": "2017-11-05",
