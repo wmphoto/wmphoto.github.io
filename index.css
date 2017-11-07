@@ -1,4 +1,5 @@
 body {
+  font-family: helvetica, arial, sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -10,7 +11,7 @@ td {
   height: 400px;
   min-width: 400px;
 }
-td div {
+td div {  
   position: relative;
   vertical-align: center;
   width: 400px;
@@ -21,19 +22,26 @@ div img {
   max-height: 100%;
   max-width: 100%;
 }
-.label {
-  height: 110%;
-  width: 110%;
+.label_background {
+  height: 101%;
+  width: 101%;
   background: rgba(255, 255, 255, 0);
   color: rgba(0, 0, 0, 0);
   position: absolute;
   top: 0;
   left: 0;
 } 
-.label:hover {
-  background: rgba(255, 255, 255, 0.7);
+.label_background:hover {
+  background: rgba(255, 255, 255, 0.8);
   color: rgba(0, 0, 0, 1);
 }
+.label {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+} 
 .helper {
   display: inline-block;
   height: 100%;
