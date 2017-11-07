@@ -114,7 +114,7 @@ function loadImages () {
     return false;
   }
 
-
+  // gets highest seq
   function getMaxSeq() {
     var max = 1;    
     for (var key in data) {
