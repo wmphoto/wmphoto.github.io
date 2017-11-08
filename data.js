@@ -270,7 +270,7 @@ data = [
     "date": "2017-11-07",
     "seq": 30,
   },
-   {
+  {
     "id": "lz",
     "x": -1,
     "y": -5,
@@ -278,5 +278,14 @@ data = [
     "imgLarge": "lz04-large.jpg",
     "date": "2017-11-08",
     "seq": 31,
+  },
+  {
+    "id": "ls",
+    "x": 5,
+    "y": 0,
+    "imgSmall": "ls05-small.jpg",
+    "imgLarge": "ls05-large.jpg",
+    "date": "2017-11-08",
+    "seq": 32,
   },
  ]; 
