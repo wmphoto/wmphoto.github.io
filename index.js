@@ -42,7 +42,8 @@ function loadImages () {
 
       for (var key in data) {
         if (data[key].x === j && data[key].y === i) {
-          htmlText += '<td style="background-image:url(img/' + data[key].imgSmall + ');">';
+          htmlText += '<td>';// style="background-image:url(img/' + data[key].imgSmall + ');">';
+          htmlText += '<div id="image"><span class="helper"></span><div class="label_background"><p class="label">' + (data[key].date).replace(/-/g, '/') + ' - ' + (data[key].id).charAt(0) + '.' + data[key].id.charAt(1) + '.' + '</p></div><img src=img/' + data[key].imgSmall + '></div>';
           isPopulated = true;
         }
       }
@@ -61,6 +62,14 @@ function loadImages () {
 
 function scrollToMiddle () {
   window.scrollTo((document.body.scrollWidth - window.innerWidth) / 2, (document.body.scrollHeight - window.innerHeight) / 2);  
+}
+
+function getName (id) {
+  for (var key in profiles) {
+    if (profiles[key].id == id) {
+      return profiles[key].name;
+    } 
+  }
 }
 
 loadImages();

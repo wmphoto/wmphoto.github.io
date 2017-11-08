@@ -41,7 +41,7 @@ profiles = [
   },
   {
     "id": "ed",
-    "name": "",
-    "color": ""
+    "name": "Eliot Dudik",
+    "color": "ff00ea"
   }
 ];
