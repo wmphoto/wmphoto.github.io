@@ -314,5 +314,14 @@ data = [
     "imgLarge": "ja04-large.jpg",
     "date": "2017-11-13",
     "seq": 35,
+  }, 
+  {
+    "id": "ls",
+    "x": -3,
+    "y": -5,
+    "imgSmall": "ls07-small.jpg",
+    "imgLarge": "ls07-large.jpg",
+    "date": "2017-11-13",
+    "seq": 36,
   },
  ]; 
