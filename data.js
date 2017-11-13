@@ -8,6 +8,7 @@ data = [
     "date": "2017-10-25",
     "seq": 1
   },
+  
   {
     "id": "zl",
     "x": 1,
@@ -16,6 +17,15 @@ data = [
     "imgLarge": "zl04-large.jpg",
     "date": "2017-11-08",
     "seq": 34,
+  },
+  {
+    "id": "zl",
+    "x": -2,
+    "y": -7,
+    "imgSmall": "zl05-small.jpg",
+    "imgLarge": "zl05-large.jpg",
+    "date": "2017-11-13",
+    "seq": 40,
   },
   {
     "id": "ls",
