@@ -377,6 +377,6 @@ data = [
     "imgSmall": "rx05-small.jpg",
     "imgLarge": "rx05-large.jpg",
     "date": "2017-11-13",
-    "seq": 41,
+    "seq": 40,
   },
  ]; 
