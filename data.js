@@ -371,7 +371,6 @@ data = [
     "seq": 39,
   },
   {
-<<<<<<< HEAD
     "id": "rx",
     "x": 0,
     "y": -8,
@@ -379,14 +378,5 @@ data = [
     "imgLarge": "rx05-large.jpg",
     "date": "2017-11-13",
     "seq": 41,
-=======
-    "id": "ie",
-    "x": 4,
-    "y": 2,
-    "imgSmall": "ie04-small.jpg",
-    "imgLarge": "ie04-large.jpg",
-    "date": "2017-11-13",
-    "seq": 40,
->>>>>>> 715ee7c110937b21ba30b150321ae5cd545b3c0a
   },
  ]; 
