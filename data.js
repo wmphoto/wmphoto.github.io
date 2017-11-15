@@ -8,7 +8,15 @@ data = [
     "date": "2017-10-25",
     "seq": 1
   },
-  
+  {
+    "id": "zl",
+    "x": 8,
+    "y": 0,
+    "imgSmall": "zl06-small.jpg",
+    "imgLarge": "zl06-large.jpg",
+    "date": "2017-11-15",
+    "seq": 49,
+  },
   {
     "id": "zl",
     "x": 1,
