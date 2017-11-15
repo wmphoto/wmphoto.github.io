@@ -8,6 +8,7 @@ data = [
     "date": "2017-10-25",
     "seq": 1
   },
+  
   {
     "id": "zl",
     "x": 1,
@@ -16,6 +17,15 @@ data = [
     "imgLarge": "zl04-large.jpg",
     "date": "2017-11-08",
     "seq": 34,
+  },
+  {
+    "id": "zl",
+    "x": -2,
+    "y": -7,
+    "imgSmall": "zl05-small.jpg",
+    "imgLarge": "zl05-large.jpg",
+    "date": "2017-11-13",
+    "seq": 40,
   },
   {
     "id": "ls",
@@ -334,7 +344,10 @@ data = [
     "seq": 37,
   },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of dd4d960... Revert "Merge branch 'master' of https://github.com/wmphoto/wmphoto.github.io"
    {
     "id": "ed",
     "x": 0,
@@ -398,6 +411,7 @@ data = [
     "date": "2017-11-14",
     "seq": 43,
   },
+<<<<<<< HEAD
   {
     "id": "lz",
     "x": -3,
@@ -408,4 +422,6 @@ data = [
     "seq": 44,
   },
 >>>>>>> parent of c514f37... Revert "add image"
+=======
+>>>>>>> parent of dd4d960... Revert "Merge branch 'master' of https://github.com/wmphoto/wmphoto.github.io"
  ]; 
