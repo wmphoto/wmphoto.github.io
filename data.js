@@ -423,5 +423,14 @@ data = [
     "imgLarge": "ed06-large.jpg",
     "date": "2017-11-15",
     "seq": 45,
+  },  
+  {
+    "id": "rx",
+    "x": 6,
+    "y": -1,
+    "imgSmall": "rx06-small.jpg",
+    "imgLarge": "rx06-large.jpg",
+    "date": "2017-11-15",
+    "seq": 46,
   },
  ]; 
