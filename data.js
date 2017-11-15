@@ -477,4 +477,13 @@ data = [
     "date": "2017-11-15",
     "seq": 51,
   },
+  {
+    "id": "cx",
+    "x": -3,
+    "y": 5,
+    "imgSmall": "cx04-small.jpg",
+    "imgLarge": "cx04-large.jpg",
+    "date": "2017-11-15",
+    "seq": 52,
+  },
  ]; 
