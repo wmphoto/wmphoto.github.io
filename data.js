@@ -433,4 +433,13 @@ data = [
     "date": "2017-11-15",
     "seq": 46,
   },
+  {
+    "id": "ls",
+    "x": 7,
+    "y": 0,
+    "imgSmall": "ls08-small.jpg",
+    "imgLarge": "ls08-large.jpg",
+    "date": "2017-11-15",
+    "seq": 47,
+  },
  ]; 
