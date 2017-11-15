@@ -343,11 +343,6 @@ data = [
     "date": "2017-11-13",
     "seq": 37,
   },
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> parent of dd4d960... Revert "Merge branch 'master' of https://github.com/wmphoto/wmphoto.github.io"
    {
     "id": "ed",
     "x": 0,
@@ -411,7 +406,6 @@ data = [
     "date": "2017-11-14",
     "seq": 43,
   },
-<<<<<<< HEAD
   {
     "id": "lz",
     "x": -3,
@@ -421,7 +415,4 @@ data = [
     "date": "2017-11-15",
     "seq": 44,
   },
->>>>>>> parent of c514f37... Revert "add image"
-=======
->>>>>>> parent of dd4d960... Revert "Merge branch 'master' of https://github.com/wmphoto/wmphoto.github.io"
  ]; 
