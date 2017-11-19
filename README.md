@@ -23,7 +23,7 @@ Name your files *exactly* as the site tells you to.
 
 Only upload **.jpg** files. The small version of the image should be **500** pixels on the long side. Your large version of the image should be **2000** pixels on the long side. Make your images as small as possible - users will be loading tens of images at a time, and we want the page to load quickly. 
 
-For each file, click **File** > **Export** > **Save for Web**. In **Save for Web**, make sure the box *below* **Preset** says **JPEG** (not GIF). Make sure **Optimized** is checked, and set **Quality** to 70. Make sure **Convert to sRGB** is checked.
+For each file, click **File** > **Export** > **Save for Web**. In **Save for Web**, make sure the box *below* **Preset** says **JPEG** (not GIF). Make sure **Optimized** is checked, and set **Quality** to 60. Make sure **Convert to sRGB** is checked.
 
 ## Updating your profile
 
