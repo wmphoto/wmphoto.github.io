@@ -10,6 +10,15 @@ data = [
   },
   {
     "id": "zl",
+    "x": 2,
+    "y": -4,
+    "imgSmall": "zl08-small.jpg",
+    "imgLarge": "zl08-large.jpg",
+    "date": "2017-11-20",
+    "seq": 61,
+  },
+  {
+    "id": "zl",
     "x": -4,
     "y": 3,
     "imgSmall": "zl07-small.jpg",
