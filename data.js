@@ -584,6 +584,7 @@ data = [
     "imgLarge": "rx08-large.jpg",
     "date": "2017-11-20",
     "seq": 63,
+},
   {
     "id": "rx",
     "x": 3,
@@ -592,6 +593,5 @@ data = [
     "imgLarge": "rx09-large.jpg",
     "date": "2017-11-20",
     "seq": 64,
-  },
   },
   ]; 
